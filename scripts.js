@@ -8,6 +8,4 @@ if (navigator.mediaDevices.getUserMedia) {
     .then(function (stream) {
       video.srcObject = stream;
     })
-
-    });
 }
